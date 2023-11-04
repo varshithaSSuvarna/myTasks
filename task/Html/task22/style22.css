@@ -1,0 +1,487 @@
+#navBarContainer {
+    display: flex;
+}
+
+#logoContainer {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+#logo {
+    width: 57%;
+}
+
+#menuText {
+    width: 100%;
+}
+
+#ContactDetails {
+    display: flex;
+    justify-content: end;
+    width: 91%;
+    font-size: 20px;
+    color: rgb(158, 156, 156);
+
+}
+
+.text {
+    padding-right: 10px;
+}
+
+#navigation {
+    width: 98%;
+    display: flex;
+    align-items: center;
+}
+
+#navBar {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#imageContainer {
+    background-image: url(unnamed-13.png);
+    height: 950px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contentContainer {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerText {
+    font-size: 66px;
+}
+
+#subText {
+    font-size: 37px;
+    margin-top: 0;
+}
+
+#aboutContainer {
+    display: flex;
+}
+
+#abouttextContainer {
+    width: 65%;
+    display: flex;
+    justify-content: end;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+#aboutBoldText {
+    font-size: 27px;
+}
+
+#blueText {
+    color: #034e80;
+    font-weight: bold;
+}
+
+.subText {
+    font-size: 20px;
+}
+
+#personImage {
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#image {
+    height: 450px;
+}
+
+#consultationContainer {
+    background-image: url(unnamed-34.png);
+    background-size: 100% 100%;
+    display: flex;
+    height: 360px;
+}
+
+#consultationImageContainer {
+    background-color: rgb(10 126 206 / 80%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ConsultationText {
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    height: 245px;
+}
+
+button {
+    padding: 15px;
+    width: 30%;
+    background-color: #f79421;
+    color: white;
+    font-size: 20px;
+    border: 1px #f79421;
+    font-weight: bold;
+}
+
+#businessContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#businessTextContainer {
+    width: 50%;
+    text-align: center;
+    height: 200px;
+}
+
+#businessHeaderText {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+#businessSubText {
+    font-size: 20px;
+}
+
+#businessIconContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#businessIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconText {
+    font-size: 18px;
+    margin: 20px;
+}
+
+span.material-symbols-outlined {
+    font-size: 40px;
+}
+
+.line {
+    border: 1px solid #faa341;
+    width: 35%;
+}
+
+.businessPara {
+    font-size: 15px;
+    text-align: center;
+}
+
+#professionalContainer {
+    background-image: url(unnamed-35.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 470px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+
+#clientContainer {
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#numberTextContainer {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.numberText {
+    color: white;
+}
+
+.number {
+    font-size: 55px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.word {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#vedioLogoContainer {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+#vedioBgContainer {
+    width: 50%;
+    background-image: url(unnamed-37.png);
+    background-size: 100% 100%;
+}
+
+#vedioContainer {
+    background-color: rgb(10 126 206 / 80%);
+    width: 100%;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#vedioPara {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 292px;
+    justify-content: flex-end;
+}
+
+#paraText {
+    font-size: 20px;
+}
+
+
+
+#vediolink {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#paraTextContainer {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    justify-content: flex-end;
+    padding-left: 20px;
+}
+
+#client {
+    font-size: 25px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#caseStudy {
+    width: 50%;
+}
+
+#blackText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 390px;
+    justify-content: center;
+}
+
+#logoImage {
+    height: 120px;
+    width: 18%;
+}
+
+#dellText {
+    font-size: 20px;
+    text-align: center;
+}
+
+#detailLink {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+#sideContent2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#caseText {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+#expertPeopleContainer {
+    background-color: #363636;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    height: 540px;
+    justify-content: center;
+}
+
+#centerLargeText {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 0;
+}
+
+#centerSmallText {
+    font-size: 20px;
+    color: white;
+}
+
+#expertImageContainer {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    height: 260px;
+    align-items: center;
+}
+
+.circle {
+    width: 15%;
+    height: 220px;
+    border-radius: 100%;
+}
+
+#dotContainer {
+    width: 3%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+#circleWhite {
+    height: 15px;
+    width: 27%;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.dots {
+    height: 15px;
+    width: 27%;
+    background-color: rgb(187 177 177);
+    border-radius: 100%;
+}
+
+#valuedClientContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#clientText {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #0c7abe;
+    height: 80px;
+    font-weight: bold;
+}
+
+#productImage {
+    width: 85%;
+    height: 80px;
+}
+
+#footerContainer {
+    background-color: #303030;
+    color: white;
+}
+
+#menuContainer {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#menuBar {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 25px;
+    width: 75%;
+}
+
+#footerTextContainer {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#wrapper2 {
+    display: flex;
+    width: 84%;
+}
+
+.footerRowContainer {
+    width: 25%;
+}
+
+.grayText {
+    color: #a5a3a3;
+}
+
+#copyRightContainer {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    width: 94%;
+    justify-content: space-between;
+
+}
+
+#copyRightText {
+    width: 56%;
+    display: flex;
+    justify-content: center;
+    color: #a5a3a3;
+}
+
+#footerIcon {
+    width: 9%;
+}

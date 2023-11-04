@@ -1,0 +1,18 @@
+#mainContainer {
+    width: 100%;
+}
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#timeContainer {
+    display: flex;
+    justify-content: space-between;
+}
+#instructionContainer {
+    text-decoration: underline;
+}
+.subContainer {
+    line-height: 31px;
+}

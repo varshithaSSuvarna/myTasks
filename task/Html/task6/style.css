@@ -1,0 +1,28 @@
+.mainContainer
+{
+    background-color: aquamarine;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    
+}
+.subContainer
+{
+    background-color: beige;
+    width:30%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.titleContainer
+{
+    width:28%;
+    height:150px;
+    border-radius: 100%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}

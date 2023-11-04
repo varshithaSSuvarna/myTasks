@@ -1,0 +1,56 @@
+#titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#subContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contentContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#contentContainer1 p:nth-child(2) {
+    color: blue
+}
+
+#contentContainer2 :first-child {
+    color: blue;
+}
+
+#contentContainer3 :not(h4) {
+    color: blue;
+}
+
+#contentContainer4 :nth-child(3n) {
+    color: blue;
+}
+
+#contentContainer5 :nth-child(5n+1) {
+    color: blue;
+}
+
+#contentContainer6 :nth-last-child(2) {
+    color: blue;
+}
+
+#contentContainer7 :nth-last-of-type(5) {
+    color: blue;
+}
+
+#contentContainer8 :nth-child(even) {
+    color: blue;
+}
+
+#contentContainer9 :nth-child(odd) {
+    color: blue;
+}

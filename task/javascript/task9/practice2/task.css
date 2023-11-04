@@ -1,0 +1,98 @@
+#mainContainer {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#bulbTextContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bulbContainer {
+  background-image: url(bulbs.jpg);
+  width: 49%;
+  height: 427px;
+  background-size: 100% 100%;
+  position: relative;
+}
+#bulbColor {
+  width: 52%;
+    height: 156px;
+    border-radius: 250px 250px 44px 40px;
+    position: absolute;
+    left: 109px;
+    top: 5px
+}
+#text {
+  font-size: 30px;
+  height: 79px;
+  display: flex;
+  align-items: center;
+}
+#colorChangeContainer {
+    width: 87%;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+.onOffButton {
+    padding: 12px;
+    font-size: 20px;
+    width: 22%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+#colorpalleteContainer {
+    
+    display: flex;
+    width: 24%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 500px;
+}
+.circle {
+    width: 22%;
+    height: 100px;
+    border-radius: 100%;
+  }
+.circle:nth-child(1) {
+  background: #f4f46a;
+}
+.circle:nth-child(2) {
+    background: #e5b3bb;
+  }
+  .circle:nth-child(3) {
+    background: #f89b21;
+  }
+  .circle:nth-child(4) {
+    background: #d7d5d5;
+  }
+  .circle:nth-child(5) {
+    background: #30b5ea;
+  }
+  .circle:nth-child(6) {
+    background: #e4af4d;
+  }
+  .circle:nth-child(7) {
+    background: #42e242;
+  }
+  .circle:nth-child(8) {
+    background: #200bdc;
+  }
+  .circle:nth-child(9) {
+    background: #e72121;
+  }
+  .circle:nth-child(10) {
+    background: #c4f68a;
+  }
+  .circle:nth-child(11) {
+    background: #e12ce1;
+  }
+  .circle:nth-child(12) {
+    background: #7241fa;
+  }
+  

@@ -1,0 +1,50 @@
+#mainContainer {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#balloonTextContainer {
+  width: 70%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.balloon {
+  width: 14%;
+  height: 210px;
+  border-radius: 100%;
+  background-color: rgb(119, 119, 238);
+  animation-name: balloons;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+}
+@keyframes balloons {
+  100%,
+  0% {
+    transform: translateY(5px) rotate(-6deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(6deg);
+  }
+}
+.balloon:nth-child(2) {
+  background-color: rgb(202, 248, 176);
+}
+.balloon:nth-child(3) {
+  background-color: rgb(213, 142, 244);
+}
+.balloon:nth-child(4) {
+  background-color: rgb(106, 135, 240);
+}
+.balloon:nth-child(5) {
+  background-color: rgb(243, 109, 116);
+}
+.balloon:nth-child(6) {
+  background-color: rgb(245, 201, 112);
+}
+#demo {
+  font-size: 30px;
+  color: red;
+}

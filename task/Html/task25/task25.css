@@ -1,0 +1,62 @@
+#mainContainer
+{
+    width:100%;
+    display:flex;
+}
+#firstContainer
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.link
+{
+    color:black;
+    text-decoration: none;
+}
+#firstContainerWrapper
+{
+    width:23%;
+    position:fixed;
+}
+#documentTitle
+{
+    font-size: 20px;
+}
+.boxContainer
+{
+    border:1px solid black;
+    width:70%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+#secondContainer
+{
+    padding-top: 15px;
+}
+#grayContainer
+{
+    background-color: #8b8b8b;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.titleContainer
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.paraContainer
+{
+     font-size: 20px;
+}
+.boldText
+{
+    font-size:20px;
+    font-weight: bold;
+}

@@ -1,0 +1,165 @@
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#firstContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.pallette {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  font-size: 20px;
+  
+}
+#black:hover {
+  background-color: black;
+  color: white;
+  
+}
+#gray:hover {
+  background-color: #b4b8bb;
+  color: white;
+}
+#mahogany:hover {
+  background-color: #2b1700;
+}
+#mekChocolate:hover {
+  background-color: #7a5020;
+  color: white;
+}
+#sand:hover {
+  background-color: #f3edd0;
+  color: white;
+}
+#peacock:hover {
+  background-color: #023f5c;
+  color: white;
+}
+#blue:hover {
+  background-color: #6ac7cc;
+  color: white;
+}
+#blueberry:hover {
+  background-color: #003b9a;
+  color: white;
+}
+#lightBlue:hover {
+  background-color: #87adc0;
+  color: white;
+}
+#rain:hover {
+  background-color: #c9deef;
+  color: white;
+}
+#navy:hover {
+  background-color: #00153c;
+  color: white;
+}
+#palm:hover {
+  background-color: #130e44;
+  color: white;
+}
+#violet:hover {
+  background-color: #806391;
+  color: white;
+}
+#purple:hover {
+  background-color: #8582b1;
+  color: white;
+}
+#blurry:hover {
+  background-color: #a3b0d0;
+  color: white;
+}
+#brown:hover {
+  background-color: #4e0115;
+  color: white;
+}
+#darkRed:hover {
+  background-color: #990014;
+  color: white;
+}
+#Red:hover {
+  background-color: #ea000d;
+  color: white;
+}
+#pink:hover {
+  background-color: #e7557c;
+  color: white;
+}
+#peech:hover {
+  background-color: #fcdbe2;
+  color: white;
+}
+#sandy:hover {
+  background-color: #ae5600;
+  color: white;
+}
+#orange:hover {
+  background-color: #eb3419;
+  color: white;
+}
+#lightOrange:hover {
+  background-color: #f88705;
+  color: white;
+}
+#lightPink:hover {
+  background-color: #f27151;
+  color: white;
+}
+#maryGold:hover {
+  background-color: #ffc938;
+  color: white;
+}
+#gold:hover {
+  background-color: #ddb400;
+  color: white;
+}
+#yellow:hover {
+  background-color: #ffee00;
+  color: white;
+}
+#butter:hover {
+  background-color: #fff9a4;
+  color: white;
+}
+#green:hover {
+  background-color: #b9b714;
+  color: white;
+}
+#leaf:hover {
+  background-color: #879114;
+  color: white;
+}
+#darkGreen:hover {
+  background-color: #233600;
+  color: white;
+}
+#Thyme:hover {
+  background-color: #8a9245;
+  color: white;
+}
+#grass:hover {
+  background-color: #0d8428;
+  color: white;
+}
+#lightGreen:hover {
+  background-color: #99ca6b;
+  color: white;
+}
+#celery:hover {
+  background-color: #d9e7b2;
+  color: white;
+}

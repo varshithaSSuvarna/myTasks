@@ -1,0 +1,130 @@
+#mainContainer
+{
+    width:100%;
+}
+#titleContainer
+{
+    display:flex;
+    justify-content: center;
+    text-shadow:2px 2px 3px red;
+    font-size: 30px;
+}
+#boxContainer
+{
+    display:flex;
+    justify-content: space-around;
+}
+@keyframes box1example
+{
+    from{background-color:blue ;}
+    to{background-color:red ;}
+}
+#box1
+{
+    width:15%;
+    height: 200px;
+    animation-name:box1example;
+    background-color:blue ;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+@keyframes box2example
+{
+    0%{background-color:pink ;}
+    25%{background-color:yellowgreen;}
+    50%{background-color:peru}
+    75%{background-color:yellow}
+    100%{background-color:aqua}
+}
+#box2
+{
+    width:15%;
+    height: 200px;
+    background-color: pink;
+    animation-name:box2example;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+@keyframes box3example
+{
+    0%{background-color:rgb(219, 46, 210) ;}
+    50%{background-color:rgb(133, 144, 7)}
+    100%{background-color:rgb(229, 34, 60)}
+}
+#box3
+{
+    width:15%;
+    height: 200px;
+    background-color: rgb(219, 46, 210);
+    animation-name:box3example;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+#boxContainer2
+{
+    display:flex;
+    justify-content: space-between;
+}
+@keyframes box4example
+{
+    0%{background-color:rgb(46, 219, 60); top:0px; left:0px;}
+    25%{background-color:rgb(27, 11, 196); top:0px; left:200px; }
+    50%{background-color:rgb(176, 156, 4);top:200px; left:200px;}
+    75%{background-color:rgb(124, 6, 132);top:200px; left:0px;}
+    100%{background-color:orange;top:0px; left:0px;}
+}
+#box4
+{
+    width:15%;
+    height: 200px;
+    background-color:rgb(46, 219, 60);
+    animation-name:box4example;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-direction: normal;
+    position:relative;
+    margin: 50px;
+    animation-iteration-count: 3;
+}
+@keyframes box5example
+{
+    0%{background-color:rgb(46, 219, 60); top:0px; right:0px;}
+    25%{background-color:rgb(27, 11, 196); top:0px; right:200px; }
+    50%{background-color:rgb(176, 156, 4);top:200px; right:200px;}
+    75%{background-color:rgb(124, 6, 132);top:200px; right:0px;}
+    100%{background-color:orange;top:0px; right:0px;}
+}
+#box5
+{
+    width:15%;
+    height: 200px;
+    background-color:rgb(46, 219, 60);
+    animation-name:box5example;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-direction: normal;
+    position:relative;
+    margin: 50px;
+    animation-iteration-count: 3;
+}
+#boxContainer3
+{
+    display:flex;
+    justify-content: center;
+}
+#box6
+{
+    width:15%;
+    height: 200px;
+    background-color:rgb(215, 56, 17);
+    transition:width 2s,height 2s,transform 4s;
+}
+#box6:hover{
+
+    width:25%;
+    height:300px;
+    transform:rotate(360deg);
+}

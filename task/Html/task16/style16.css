@@ -1,0 +1,68 @@
+#mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#subContainer {
+    width: 95%;
+    display: flex;
+}
+
+.subContainer1 {
+    width: 35%;
+}
+
+.titleContainer {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.titleText {
+    margin-bottom: 0;
+}
+
+.underline {
+    width: 12%;
+}
+
+.line {
+    border:1px solid #b8eb78;
+}
+
+.imageText {
+    display: flex;
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+.imageContainer {
+    width: 65%;
+}
+
+.image {
+    width: 85%;
+}
+
+.image1 {
+    width: 80%;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.cost {
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+}
+
+.cost1 {
+    color: #aed389;
+
+}
+
+.cost2 {
+    color: #888585;
+}

@@ -1,0 +1,40 @@
+#mainContainer
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menuContainer
+{
+    display: flex;
+    width:88%;
+    color:#e3d8d6;
+}
+.menuItem
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    width:16%;
+}
+.iconText:hover{
+    color:black;
+}
+#imageContainer
+{
+    display:flex;
+    width:80%;
+}
+.subContainer
+{
+    width:35%;
+}
+.imageBox
+{
+    padding-bottom: 35px;
+}
+.image
+{
+    width:85%;
+}

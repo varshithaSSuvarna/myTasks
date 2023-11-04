@@ -1,0 +1,95 @@
+#mainContainer {
+  background-image: url(unnamed-11.png);
+  background-size: 100% 100%;
+  padding-top: 20px;
+  height: 100vh;
+}
+#titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+#logoContainer {
+  display: flex;
+  align-items: center;
+  width: 28%;
+  flex-direction: column;
+}
+#image {
+  width: 20%;
+  height: 45px;
+}
+#headerText {
+  margin-top: 0;
+}
+#navigationContainer {
+  width: 70%;
+}
+#navBar {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 80%;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+#text {
+  color: #f8ad1e;
+}
+#textContainer {
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#title {
+  width: 64%;
+}
+#heading {
+  width: 70%;
+  font-size: 33px;
+}
+#wrapper {
+  width: 78%;
+}
+#paraContainer {
+  width: 60%;
+}
+#para {
+  width: 63%;
+  font-size: 26px;
+}
+
+#searchContainer {
+  width: 54%;
+  position: relative;
+}
+#inputText {
+  width: 53%;
+  padding: 25px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid #f8ad1e;
+}
+#iconContainer {
+  width: 21%;
+  height: 73px;
+  left: 368px;
+  position: absolute;
+  top: 2px;
+}
+#icon {
+  font-size: 50px;
+  background: #f8ad1e;
+  width: 48%;
+  height: 71px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

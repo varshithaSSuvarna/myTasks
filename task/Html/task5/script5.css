@@ -1,0 +1,87 @@
+#mainContainer {
+    background-color: #ffab00;
+}
+
+#title {
+    height: 25px;
+    font-size: 20px;
+    color: #ffe9cf
+}
+
+#subContainer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#tableContainer {
+    width: 50%;
+    color: #afb200;
+
+}
+
+.firstCol {
+
+    width: 30%;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.secondCol {
+
+    width: 100%;
+    padding: 5px;
+}
+
+#selectContainer {
+    display: flex;
+    padding:10px;
+    width: 70%;
+    justify-content: space-between;
+
+}
+
+.optionContainer {
+    width: 30%;
+}
+#gender
+{
+    
+    background-color: aquamarine;
+}
+#country {
+    width: 95%;
+
+}
+#term
+{
+    display:flex;
+    justify-content: center;
+    width:50%;
+}
+#buttonContainer {
+
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    height: 30px;
+}
+
+#buttons {
+    width: 10%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#button1 {
+    background-color: #3b8b40;
+    width: 45%;
+    border: 1px solid #3b8b40;
+}
+
+#button2 {
+    background-color: #ed1b18;
+    width: 45%;
+    border: 1px solid #ed1b18;
+}

@@ -1,0 +1,96 @@
+#mainContainer {
+  background-color: black;
+  height: 1025px;
+}
+#menuContainer {
+  display: flex;
+  justify-content: space-between;
+}
+#logoTextContainer {
+  display: flex;
+  width: 16%;
+  justify-content: space-around;
+  align-items: center;
+}
+#logoImage {
+  width: 45%;
+  height: 100px;
+}
+#menuLogoText {
+  font-size: 30px;
+  color: white;
+}
+#navContainer {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-around;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+}
+#demo
+{
+    color: white;
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 40px;
+}
+#textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  justify-content: center;
+}
+#text {
+    font-size: 35px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#courseText {
+    font-size: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#imageTextContainer {
+  display: flex;
+  justify-content: center;
+}
+#imageText {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 80%;
+  height: 380px;
+  align-items: center;
+}
+.logoTextContainer {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(241, 237, 237);
+  height: 300px;
+  justify-content: center;
+  border-radius: 15px;
+}
+.courseLogo {
+  width: 70%;
+  height: 200px;
+}
+.logoText {
+  font-size: 25px;
+}
+#javaLogo {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#javaCourseLogo {
+  width: 72%;
+}

@@ -1,0 +1,48 @@
+#mainContainer {
+  display: flex;
+  background-color: #ecf1f7;
+  justify-content: center;
+}
+#subContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+#wrapper {
+  width: 73%;
+}
+#titleContainer {
+  font-size: 40px;
+  color: #0372b8;
+}
+#title {
+  display: flex;
+}
+#letter {
+  font-family: "Russo One", sans-serif;
+  font-size: 100px;
+}
+#blackText {
+  font-size: 42px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+#paraContainer {
+  font-size: 27px;
+  color: #818284;
+  font-family: "Gentium Book Plus", serif;
+}
+#footerContainer {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 24%;
+}
+#line {
+  width: 14%;
+  border: 1px solid black;
+}
+#image {
+  height: 760px;
+}

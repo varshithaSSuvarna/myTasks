@@ -1,0 +1,30 @@
+#maincontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, rgb(244, 67, 67), yellow);
+}
+#timerContainer {
+  width: 40%;
+  height: 450px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(99, 203, 241);
+  border-radius: 80px;
+  box-shadow: 3px 5px 10px #dad5d5;
+}
+#demo {
+  font-size: 90px;
+}
+#dateContainer {
+  font-size: 50px;
+}
+#buttonContainer {
+  padding: 10px;
+  width: 30%;
+}

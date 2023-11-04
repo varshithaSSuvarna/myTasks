@@ -1,0 +1,164 @@
+#mainContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: column;
+}
+
+#headerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 9%;
+    letter-spacing: 1px;
+}
+
+#logo {
+    height: 25px;
+    width: 15%;
+    margin-right: 5px;
+
+}
+
+#titleText {
+    font-size: 20px;
+}
+
+#navContent {
+    width: 65%;
+}
+
+#menuContent {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menuText {
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+#consultantButton {
+    background-color: #f1655c;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #f1655c;
+}
+
+#description {
+    display: flex;
+    align-items: center;
+    background-color: #e4e8eb;
+    justify-content: center;
+}
+
+#textContainer {
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#title {
+    width: 60%;
+
+}
+
+#blueText {
+    color: #2a3354;
+    font-size: 55px;
+}
+
+#redText {
+    color: #f1655c;
+    font-size: 15px;
+}
+
+#paragraphText {
+
+    width: 80%;
+    font-size: 20px;
+}
+
+#buttonContainer {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#button1 {
+    background-color: #f1655c;
+    color: white;
+    font-weight: bold;
+    width: 45%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid #f1655c;
+
+}
+
+#button2 {
+    font-weight: bold;
+    width: 45%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    background-color: transparent;
+}
+
+
+#personImage {
+    margin-top: 100px;
+}
+
+#footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-top: 50px;
+}
+
+#subText {
+    width: 26%;
+
+
+}
+
+#text1 {
+    width: 80%;
+    font-size: 20px;
+
+}
+
+#subText2 {
+    width: 22%;
+
+
+}
+
+#text2 {
+    width: 47%;
+    font-size: 20px;
+
+}

@@ -1,0 +1,64 @@
+#mainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.subContainer {
+    display: flex;
+
+}
+
+#contentContainer {
+    border: 1px solid black;
+    width: 70%;
+    padding: 20px
+}
+
+#image {
+    width: 100%;
+    height: 335px;
+}
+
+.container {
+    width: 50%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#map {
+    width: 100%;
+    height: 335px;
+}
+
+#imageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    background-color: gray;
+}
+
+#link {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+
+#book {
+    padding-right: 20px;
+    color: blue;
+}
+
+#audioContainer {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+#audio {
+    width: 70%;
+}

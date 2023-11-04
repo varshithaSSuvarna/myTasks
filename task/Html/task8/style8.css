@@ -1,0 +1,21 @@
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+}
+.link {
+  display:flex;
+  align-items: center;
+  color: #cbd4df;
+}
+.rowContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.boxcontainer {
+  width: 24%;
+  height: 180px;
+  background-color: #cbd4df;
+}

@@ -1,0 +1,55 @@
+#mainContainer {
+  display: flex;
+  justify-content: center;
+}
+#subContainer {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 645px;
+}
+.imageText {
+  position: relative;
+}
+.imageContainer {
+  width: 95%;
+  height: 300px;
+}
+
+#text1 {
+  position: absolute;
+  top: 250px;
+  color: white;
+  left: 140px;
+}
+#text2 {
+  position: absolute;
+  top: 250px;
+  color: white;
+  left: 160px;
+}
+#text3 {
+  position: absolute;
+  top: 250px;
+  color: white;
+  left: 160px;
+}
+#text4 {
+  position: absolute;
+  top: 250px;
+  color: white;
+  left: 190px;
+}
+#text5 {
+  position: absolute;
+  top: 250px;
+  color: white;
+  left: 180px;
+}
+#text6 {
+  position: absolute;
+  top: 250px;
+  color: white;
+  left: 160px;
+}

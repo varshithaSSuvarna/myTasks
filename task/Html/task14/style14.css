@@ -1,0 +1,44 @@
+#mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
+#imageContainer {
+  display: flex;
+  width: 66%;
+  justify-content: space-between;
+}
+.image {
+  background-image: url(unnamed-18.jpg);
+}
+#container1 {
+  width: 16%;
+  border: 2px solid black;
+  height: 180px;
+  background-position: top;
+}
+#container2 {
+  width: 16%;
+  border: 2px solid black;
+  height: 180px;
+  background-position: bottom right;
+}
+#container3 {
+  width: 16%;
+  border: 2px solid black;
+  height: 180px;
+  background-position: bottom;
+}
+#container4 {
+  width: 16%;
+  border: 2px solid black;
+  height: 180px;
+  background-position: top right;
+}
+#container5 {
+  width: 16%;
+  border: 2px solid black;
+  height: 180px;
+  background-position: top left;
+}

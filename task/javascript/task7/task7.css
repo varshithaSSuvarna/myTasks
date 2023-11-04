@@ -1,0 +1,55 @@
+#mainContainer
+{
+    width:100%;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calculatorContainer
+{
+    width:35%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,#8e77f0,#d9a7ed);
+}
+.numberContainer
+{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+.text
+{
+    font-size: 25px;
+}
+.inputNumber
+{
+    width: 55%;
+    padding: 10px;
+    font-size: 22px;
+}
+#buttonContainer
+{
+    
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button
+{
+    padding: 10px;
+    width: 24%;
+    font-size:  18px;
+    background-color: #cac8ab;
+}
+#demo
+{
+    font-size: 27px;
+}
